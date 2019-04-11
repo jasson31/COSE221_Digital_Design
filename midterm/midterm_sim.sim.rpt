@@ -1,0 +1,498 @@
+Simulator report for midterm_sim
+Tue Apr 09 19:09:20 2019
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 169 nodes    ;
+; Simulation Coverage         ;       0.00 % ;
+; Total Number of Transitions ; 0            ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C50F672C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.00 % ;
+; Total nodes checked                                 ; 169          ;
+; Total output ports checked                          ; 169          ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 169          ;
+; Total output ports with no 1-value coverage         ; 169          ;
+; Total output ports with no 0-value coverage         ; 169          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                 ;
++-------------------------------------------------------------------+-------------------------------------------------------------------+------------------+
+; Node Name                                                         ; Output Port Name                                                  ; Output Port Type ;
++-------------------------------------------------------------------+-------------------------------------------------------------------+------------------+
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~0                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~0                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~1                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~1                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~2                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~2                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~3                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~3                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~0                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~0                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~1                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~1                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~2                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~2                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~3                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~3                ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~0      ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~0      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~1      ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~1      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[1]~2   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[1]~2   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[2]~3   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[2]~3   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|car~0    ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|car~0    ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[3]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[1]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[1]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[2]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[2]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|bcdcar[2]~0                     ; |midterm_sim|bcd_adder:bcd_adder1|bcdcar[2]~0                     ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[0]~0   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[0]~0   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[1]~1   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[1]~1   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[2]~2   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[2]~2   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|car~0    ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|car~0    ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[3]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[2]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[2]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[1]~0 ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[1]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|bcdcar[2]~0                     ; |midterm_sim|bcd_adder:bcd_adder2|bcdcar[2]~0                     ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[0]~0 ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[0]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|c~0      ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|c~0      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[2]~0 ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[2]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[3]   ; combout          ;
+; |midterm_sim|HEX0~0                                               ; |midterm_sim|HEX0~0                                               ; combout          ;
+; |midterm_sim|LessThan3~0                                          ; |midterm_sim|LessThan3~0                                          ; combout          ;
+; |midterm_sim|always1~0                                            ; |midterm_sim|always1~0                                            ; combout          ;
+; |midterm_sim|LessThan1~0                                          ; |midterm_sim|LessThan1~0                                          ; combout          ;
+; |midterm_sim|always1~1                                            ; |midterm_sim|always1~1                                            ; combout          ;
+; |midterm_sim|HEX0~1                                               ; |midterm_sim|HEX0~1                                               ; combout          ;
+; |midterm_sim|HEX0~2                                               ; |midterm_sim|HEX0~2                                               ; combout          ;
+; |midterm_sim|HEX0~3                                               ; |midterm_sim|HEX0~3                                               ; combout          ;
+; |midterm_sim|HEX0~4                                               ; |midterm_sim|HEX0~4                                               ; combout          ;
+; |midterm_sim|HEX0~5                                               ; |midterm_sim|HEX0~5                                               ; combout          ;
+; |midterm_sim|HEX0~6                                               ; |midterm_sim|HEX0~6                                               ; combout          ;
+; |midterm_sim|HEX0~7                                               ; |midterm_sim|HEX0~7                                               ; combout          ;
+; |midterm_sim|HEX0~8                                               ; |midterm_sim|HEX0~8                                               ; combout          ;
+; |midterm_sim|HEX0~9                                               ; |midterm_sim|HEX0~9                                               ; combout          ;
+; |midterm_sim|HEX0~10                                              ; |midterm_sim|HEX0~10                                              ; combout          ;
+; |midterm_sim|HEX0~11                                              ; |midterm_sim|HEX0~11                                              ; combout          ;
+; |midterm_sim|HEX0~12                                              ; |midterm_sim|HEX0~12                                              ; combout          ;
+; |midterm_sim|HEX0~13                                              ; |midterm_sim|HEX0~13                                              ; combout          ;
+; |midterm_sim|HEX0~14                                              ; |midterm_sim|HEX0~14                                              ; combout          ;
+; |midterm_sim|HEX0~15                                              ; |midterm_sim|HEX0~15                                              ; combout          ;
+; |midterm_sim|HEX0~16                                              ; |midterm_sim|HEX0~16                                              ; combout          ;
+; |midterm_sim|HEX0~17                                              ; |midterm_sim|HEX0~17                                              ; combout          ;
+; |midterm_sim|HEX0~18                                              ; |midterm_sim|HEX0~18                                              ; combout          ;
+; |midterm_sim|HEX0~19                                              ; |midterm_sim|HEX0~19                                              ; combout          ;
+; |midterm_sim|HEX0~20                                              ; |midterm_sim|HEX0~20                                              ; combout          ;
+; |midterm_sim|always1~2                                            ; |midterm_sim|always1~2                                            ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[0]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[0]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|c~0      ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|c~0      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[2]~0 ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[2]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[3]   ; combout          ;
+; |midterm_sim|WideOr34~0                                           ; |midterm_sim|WideOr34~0                                           ; combout          ;
+; |midterm_sim|HEX1~0                                               ; |midterm_sim|HEX1~0                                               ; combout          ;
+; |midterm_sim|WideOr33~0                                           ; |midterm_sim|WideOr33~0                                           ; combout          ;
+; |midterm_sim|HEX1~1                                               ; |midterm_sim|HEX1~1                                               ; combout          ;
+; |midterm_sim|WideOr32~0                                           ; |midterm_sim|WideOr32~0                                           ; combout          ;
+; |midterm_sim|HEX1~2                                               ; |midterm_sim|HEX1~2                                               ; combout          ;
+; |midterm_sim|WideOr31~0                                           ; |midterm_sim|WideOr31~0                                           ; combout          ;
+; |midterm_sim|HEX1~3                                               ; |midterm_sim|HEX1~3                                               ; combout          ;
+; |midterm_sim|WideOr30~0                                           ; |midterm_sim|WideOr30~0                                           ; combout          ;
+; |midterm_sim|HEX1~4                                               ; |midterm_sim|HEX1~4                                               ; combout          ;
+; |midterm_sim|WideOr29~0                                           ; |midterm_sim|WideOr29~0                                           ; combout          ;
+; |midterm_sim|HEX1~5                                               ; |midterm_sim|HEX1~5                                               ; combout          ;
+; |midterm_sim|WideOr28~0                                           ; |midterm_sim|WideOr28~0                                           ; combout          ;
+; |midterm_sim|HEX1~6                                               ; |midterm_sim|HEX1~6                                               ; combout          ;
+; |midterm_sim|WideOr27~0                                           ; |midterm_sim|WideOr27~0                                           ; combout          ;
+; |midterm_sim|WideOr26~0                                           ; |midterm_sim|WideOr26~0                                           ; combout          ;
+; |midterm_sim|WideOr25~0                                           ; |midterm_sim|WideOr25~0                                           ; combout          ;
+; |midterm_sim|WideOr24~0                                           ; |midterm_sim|WideOr24~0                                           ; combout          ;
+; |midterm_sim|WideOr23~0                                           ; |midterm_sim|WideOr23~0                                           ; combout          ;
+; |midterm_sim|WideOr22~0                                           ; |midterm_sim|WideOr22~0                                           ; combout          ;
+; |midterm_sim|WideOr21~0                                           ; |midterm_sim|WideOr21~0                                           ; combout          ;
+; |midterm_sim|WideOr20~0                                           ; |midterm_sim|WideOr20~0                                           ; combout          ;
+; |midterm_sim|WideOr19~0                                           ; |midterm_sim|WideOr19~0                                           ; combout          ;
+; |midterm_sim|WideOr18~0                                           ; |midterm_sim|WideOr18~0                                           ; combout          ;
+; |midterm_sim|WideOr17~0                                           ; |midterm_sim|WideOr17~0                                           ; combout          ;
+; |midterm_sim|WideOr16~0                                           ; |midterm_sim|WideOr16~0                                           ; combout          ;
+; |midterm_sim|WideOr15~0                                           ; |midterm_sim|WideOr15~0                                           ; combout          ;
+; |midterm_sim|WideOr14~0                                           ; |midterm_sim|WideOr14~0                                           ; combout          ;
+; |midterm_sim|WideOr13~0                                           ; |midterm_sim|WideOr13~0                                           ; combout          ;
+; |midterm_sim|WideOr12~0                                           ; |midterm_sim|WideOr12~0                                           ; combout          ;
+; |midterm_sim|WideOr11~0                                           ; |midterm_sim|WideOr11~0                                           ; combout          ;
+; |midterm_sim|WideOr10~0                                           ; |midterm_sim|WideOr10~0                                           ; combout          ;
+; |midterm_sim|WideOr9~0                                            ; |midterm_sim|WideOr9~0                                            ; combout          ;
+; |midterm_sim|WideOr8~0                                            ; |midterm_sim|WideOr8~0                                            ; combout          ;
+; |midterm_sim|WideOr7~0                                            ; |midterm_sim|WideOr7~0                                            ; combout          ;
+; |midterm_sim|WideOr6~0                                            ; |midterm_sim|WideOr6~0                                            ; combout          ;
+; |midterm_sim|WideOr5~0                                            ; |midterm_sim|WideOr5~0                                            ; combout          ;
+; |midterm_sim|WideOr4~0                                            ; |midterm_sim|WideOr4~0                                            ; combout          ;
+; |midterm_sim|WideOr3~0                                            ; |midterm_sim|WideOr3~0                                            ; combout          ;
+; |midterm_sim|WideOr2~0                                            ; |midterm_sim|WideOr2~0                                            ; combout          ;
+; |midterm_sim|WideOr1~0                                            ; |midterm_sim|WideOr1~0                                            ; combout          ;
+; |midterm_sim|WideOr0~0                                            ; |midterm_sim|WideOr0~0                                            ; combout          ;
+; |midterm_sim|HEX0[6]                                              ; |midterm_sim|HEX0[6]                                              ; padio            ;
+; |midterm_sim|HEX0[5]                                              ; |midterm_sim|HEX0[5]                                              ; padio            ;
+; |midterm_sim|HEX0[4]                                              ; |midterm_sim|HEX0[4]                                              ; padio            ;
+; |midterm_sim|HEX0[3]                                              ; |midterm_sim|HEX0[3]                                              ; padio            ;
+; |midterm_sim|HEX0[2]                                              ; |midterm_sim|HEX0[2]                                              ; padio            ;
+; |midterm_sim|HEX0[1]                                              ; |midterm_sim|HEX0[1]                                              ; padio            ;
+; |midterm_sim|HEX0[0]                                              ; |midterm_sim|HEX0[0]                                              ; padio            ;
+; |midterm_sim|HEX1[6]                                              ; |midterm_sim|HEX1[6]                                              ; padio            ;
+; |midterm_sim|HEX1[5]                                              ; |midterm_sim|HEX1[5]                                              ; padio            ;
+; |midterm_sim|HEX1[4]                                              ; |midterm_sim|HEX1[4]                                              ; padio            ;
+; |midterm_sim|HEX1[3]                                              ; |midterm_sim|HEX1[3]                                              ; padio            ;
+; |midterm_sim|HEX1[2]                                              ; |midterm_sim|HEX1[2]                                              ; padio            ;
+; |midterm_sim|HEX1[1]                                              ; |midterm_sim|HEX1[1]                                              ; padio            ;
+; |midterm_sim|HEX1[0]                                              ; |midterm_sim|HEX1[0]                                              ; padio            ;
+; |midterm_sim|HEX4[6]                                              ; |midterm_sim|HEX4[6]                                              ; padio            ;
+; |midterm_sim|HEX4[5]                                              ; |midterm_sim|HEX4[5]                                              ; padio            ;
+; |midterm_sim|HEX4[4]                                              ; |midterm_sim|HEX4[4]                                              ; padio            ;
+; |midterm_sim|HEX4[3]                                              ; |midterm_sim|HEX4[3]                                              ; padio            ;
+; |midterm_sim|HEX4[2]                                              ; |midterm_sim|HEX4[2]                                              ; padio            ;
+; |midterm_sim|HEX4[1]                                              ; |midterm_sim|HEX4[1]                                              ; padio            ;
+; |midterm_sim|HEX4[0]                                              ; |midterm_sim|HEX4[0]                                              ; padio            ;
+; |midterm_sim|HEX5[6]                                              ; |midterm_sim|HEX5[6]                                              ; padio            ;
+; |midterm_sim|HEX5[5]                                              ; |midterm_sim|HEX5[5]                                              ; padio            ;
+; |midterm_sim|HEX5[4]                                              ; |midterm_sim|HEX5[4]                                              ; padio            ;
+; |midterm_sim|HEX5[3]                                              ; |midterm_sim|HEX5[3]                                              ; padio            ;
+; |midterm_sim|HEX5[2]                                              ; |midterm_sim|HEX5[2]                                              ; padio            ;
+; |midterm_sim|HEX5[1]                                              ; |midterm_sim|HEX5[1]                                              ; padio            ;
+; |midterm_sim|HEX5[0]                                              ; |midterm_sim|HEX5[0]                                              ; padio            ;
+; |midterm_sim|HEX6[6]                                              ; |midterm_sim|HEX6[6]                                              ; padio            ;
+; |midterm_sim|HEX6[5]                                              ; |midterm_sim|HEX6[5]                                              ; padio            ;
+; |midterm_sim|HEX6[4]                                              ; |midterm_sim|HEX6[4]                                              ; padio            ;
+; |midterm_sim|HEX6[3]                                              ; |midterm_sim|HEX6[3]                                              ; padio            ;
+; |midterm_sim|HEX6[2]                                              ; |midterm_sim|HEX6[2]                                              ; padio            ;
+; |midterm_sim|HEX6[1]                                              ; |midterm_sim|HEX6[1]                                              ; padio            ;
+; |midterm_sim|HEX6[0]                                              ; |midterm_sim|HEX6[0]                                              ; padio            ;
+; |midterm_sim|HEX7[6]                                              ; |midterm_sim|HEX7[6]                                              ; padio            ;
+; |midterm_sim|HEX7[5]                                              ; |midterm_sim|HEX7[5]                                              ; padio            ;
+; |midterm_sim|HEX7[4]                                              ; |midterm_sim|HEX7[4]                                              ; padio            ;
+; |midterm_sim|HEX7[3]                                              ; |midterm_sim|HEX7[3]                                              ; padio            ;
+; |midterm_sim|HEX7[2]                                              ; |midterm_sim|HEX7[2]                                              ; padio            ;
+; |midterm_sim|HEX7[1]                                              ; |midterm_sim|HEX7[1]                                              ; padio            ;
+; |midterm_sim|HEX7[0]                                              ; |midterm_sim|HEX7[0]                                              ; padio            ;
+; |midterm_sim|LEDG[0]                                              ; |midterm_sim|LEDG[0]                                              ; padio            ;
+; |midterm_sim|LEDG[1]                                              ; |midterm_sim|LEDG[1]                                              ; padio            ;
+; |midterm_sim|LEDG[2]                                              ; |midterm_sim|LEDG[2]                                              ; padio            ;
+; |midterm_sim|LEDG[3]                                              ; |midterm_sim|LEDG[3]                                              ; padio            ;
+; |midterm_sim|LEDG[4]                                              ; |midterm_sim|LEDG[4]                                              ; padio            ;
+; |midterm_sim|LEDG[5]                                              ; |midterm_sim|LEDG[5]                                              ; padio            ;
+; |midterm_sim|LEDG[6]                                              ; |midterm_sim|LEDG[6]                                              ; padio            ;
+; |midterm_sim|LEDG[7]                                              ; |midterm_sim|LEDG[7]                                              ; padio            ;
+; |midterm_sim|LEDG[8]                                              ; |midterm_sim|LEDG[8]                                              ; padio            ;
+; |midterm_sim|SW[16]                                               ; |midterm_sim|SW[16]~corein                                        ; combout          ;
+; |midterm_sim|SW[7]                                                ; |midterm_sim|SW[7]~corein                                         ; combout          ;
+; |midterm_sim|SW[5]                                                ; |midterm_sim|SW[5]~corein                                         ; combout          ;
+; |midterm_sim|SW[6]                                                ; |midterm_sim|SW[6]~corein                                         ; combout          ;
+; |midterm_sim|SW[13]                                               ; |midterm_sim|SW[13]~corein                                        ; combout          ;
+; |midterm_sim|SW[4]                                                ; |midterm_sim|SW[4]~corein                                         ; combout          ;
+; |midterm_sim|SW[3]                                                ; |midterm_sim|SW[3]~corein                                         ; combout          ;
+; |midterm_sim|SW[1]                                                ; |midterm_sim|SW[1]~corein                                         ; combout          ;
+; |midterm_sim|SW[2]                                                ; |midterm_sim|SW[2]~corein                                         ; combout          ;
+; |midterm_sim|SW[8]                                                ; |midterm_sim|SW[8]~corein                                         ; combout          ;
+; |midterm_sim|SW[0]                                                ; |midterm_sim|SW[0]~corein                                         ; combout          ;
+; |midterm_sim|SW[9]                                                ; |midterm_sim|SW[9]~corein                                         ; combout          ;
+; |midterm_sim|SW[10]                                               ; |midterm_sim|SW[10]~corein                                        ; combout          ;
+; |midterm_sim|SW[11]                                               ; |midterm_sim|SW[11]~corein                                        ; combout          ;
+; |midterm_sim|SW[12]                                               ; |midterm_sim|SW[12]~corein                                        ; combout          ;
+; |midterm_sim|SW[14]                                               ; |midterm_sim|SW[14]~corein                                        ; combout          ;
+; |midterm_sim|SW[15]                                               ; |midterm_sim|SW[15]~corein                                        ; combout          ;
++-------------------------------------------------------------------+-------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                 ;
++-------------------------------------------------------------------+-------------------------------------------------------------------+------------------+
+; Node Name                                                         ; Output Port Name                                                  ; Output Port Type ;
++-------------------------------------------------------------------+-------------------------------------------------------------------+------------------+
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~0                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~0                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~1                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~1                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~2                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~2                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen2|num_comple~3                ; |midterm_sim|comple9_gen:comple9_gen2|num_comple~3                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~0                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~0                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~1                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~1                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~2                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~2                ; combout          ;
+; |midterm_sim|comple9_gen:comple9_gen1|num_comple~3                ; |midterm_sim|comple9_gen:comple9_gen1|num_comple~3                ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~0      ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~0      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~1      ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c~1      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[1]~2   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[1]~2   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[2]~3   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|c[2]~3   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|car~0    ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|car~0    ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[3]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[1]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[1]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[2]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[2]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|bcdcar[2]~0                     ; |midterm_sim|bcd_adder:bcd_adder1|bcdcar[2]~0                     ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[0]~0   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[0]~0   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[1]~1   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[1]~1   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[2]~2   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|c[2]~2   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|car~0    ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|car~0    ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[3]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[2]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[2]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[1]~0 ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[1]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|bcdcar[2]~0                     ; |midterm_sim|bcd_adder:bcd_adder2|bcdcar[2]~0                     ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[0]~0 ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder1|sum[0]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|c~0      ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|c~0      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[2]~0 ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[2]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder1|full_adder:full_adder2|sum[3]   ; combout          ;
+; |midterm_sim|HEX0~0                                               ; |midterm_sim|HEX0~0                                               ; combout          ;
+; |midterm_sim|LessThan3~0                                          ; |midterm_sim|LessThan3~0                                          ; combout          ;
+; |midterm_sim|always1~0                                            ; |midterm_sim|always1~0                                            ; combout          ;
+; |midterm_sim|LessThan1~0                                          ; |midterm_sim|LessThan1~0                                          ; combout          ;
+; |midterm_sim|always1~1                                            ; |midterm_sim|always1~1                                            ; combout          ;
+; |midterm_sim|HEX0~1                                               ; |midterm_sim|HEX0~1                                               ; combout          ;
+; |midterm_sim|HEX0~2                                               ; |midterm_sim|HEX0~2                                               ; combout          ;
+; |midterm_sim|HEX0~3                                               ; |midterm_sim|HEX0~3                                               ; combout          ;
+; |midterm_sim|HEX0~4                                               ; |midterm_sim|HEX0~4                                               ; combout          ;
+; |midterm_sim|HEX0~5                                               ; |midterm_sim|HEX0~5                                               ; combout          ;
+; |midterm_sim|HEX0~6                                               ; |midterm_sim|HEX0~6                                               ; combout          ;
+; |midterm_sim|HEX0~7                                               ; |midterm_sim|HEX0~7                                               ; combout          ;
+; |midterm_sim|HEX0~8                                               ; |midterm_sim|HEX0~8                                               ; combout          ;
+; |midterm_sim|HEX0~9                                               ; |midterm_sim|HEX0~9                                               ; combout          ;
+; |midterm_sim|HEX0~10                                              ; |midterm_sim|HEX0~10                                              ; combout          ;
+; |midterm_sim|HEX0~11                                              ; |midterm_sim|HEX0~11                                              ; combout          ;
+; |midterm_sim|HEX0~12                                              ; |midterm_sim|HEX0~12                                              ; combout          ;
+; |midterm_sim|HEX0~13                                              ; |midterm_sim|HEX0~13                                              ; combout          ;
+; |midterm_sim|HEX0~14                                              ; |midterm_sim|HEX0~14                                              ; combout          ;
+; |midterm_sim|HEX0~15                                              ; |midterm_sim|HEX0~15                                              ; combout          ;
+; |midterm_sim|HEX0~16                                              ; |midterm_sim|HEX0~16                                              ; combout          ;
+; |midterm_sim|HEX0~17                                              ; |midterm_sim|HEX0~17                                              ; combout          ;
+; |midterm_sim|HEX0~18                                              ; |midterm_sim|HEX0~18                                              ; combout          ;
+; |midterm_sim|HEX0~19                                              ; |midterm_sim|HEX0~19                                              ; combout          ;
+; |midterm_sim|HEX0~20                                              ; |midterm_sim|HEX0~20                                              ; combout          ;
+; |midterm_sim|always1~2                                            ; |midterm_sim|always1~2                                            ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[0]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder1|sum[0]   ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|c~0      ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|c~0      ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[2]~0 ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[2]~0 ; combout          ;
+; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[3]   ; |midterm_sim|bcd_adder:bcd_adder2|full_adder:full_adder2|sum[3]   ; combout          ;
+; |midterm_sim|WideOr34~0                                           ; |midterm_sim|WideOr34~0                                           ; combout          ;
+; |midterm_sim|HEX1~0                                               ; |midterm_sim|HEX1~0                                               ; combout          ;
+; |midterm_sim|WideOr33~0                                           ; |midterm_sim|WideOr33~0                                           ; combout          ;
+; |midterm_sim|HEX1~1                                               ; |midterm_sim|HEX1~1                                               ; combout          ;
+; |midterm_sim|WideOr32~0                                           ; |midterm_sim|WideOr32~0                                           ; combout          ;
+; |midterm_sim|HEX1~2                                               ; |midterm_sim|HEX1~2                                               ; combout          ;
+; |midterm_sim|WideOr31~0                                           ; |midterm_sim|WideOr31~0                                           ; combout          ;
+; |midterm_sim|HEX1~3                                               ; |midterm_sim|HEX1~3                                               ; combout          ;
+; |midterm_sim|WideOr30~0                                           ; |midterm_sim|WideOr30~0                                           ; combout          ;
+; |midterm_sim|HEX1~4                                               ; |midterm_sim|HEX1~4                                               ; combout          ;
+; |midterm_sim|WideOr29~0                                           ; |midterm_sim|WideOr29~0                                           ; combout          ;
+; |midterm_sim|HEX1~5                                               ; |midterm_sim|HEX1~5                                               ; combout          ;
+; |midterm_sim|WideOr28~0                                           ; |midterm_sim|WideOr28~0                                           ; combout          ;
+; |midterm_sim|HEX1~6                                               ; |midterm_sim|HEX1~6                                               ; combout          ;
+; |midterm_sim|WideOr27~0                                           ; |midterm_sim|WideOr27~0                                           ; combout          ;
+; |midterm_sim|WideOr26~0                                           ; |midterm_sim|WideOr26~0                                           ; combout          ;
+; |midterm_sim|WideOr25~0                                           ; |midterm_sim|WideOr25~0                                           ; combout          ;
+; |midterm_sim|WideOr24~0                                           ; |midterm_sim|WideOr24~0                                           ; combout          ;
+; |midterm_sim|WideOr23~0                                           ; |midterm_sim|WideOr23~0                                           ; combout          ;
+; |midterm_sim|WideOr22~0                                           ; |midterm_sim|WideOr22~0                                           ; combout          ;
+; |midterm_sim|WideOr21~0                                           ; |midterm_sim|WideOr21~0                                           ; combout          ;
+; |midterm_sim|WideOr20~0                                           ; |midterm_sim|WideOr20~0                                           ; combout          ;
+; |midterm_sim|WideOr19~0                                           ; |midterm_sim|WideOr19~0                                           ; combout          ;
+; |midterm_sim|WideOr18~0                                           ; |midterm_sim|WideOr18~0                                           ; combout          ;
+; |midterm_sim|WideOr17~0                                           ; |midterm_sim|WideOr17~0                                           ; combout          ;
+; |midterm_sim|WideOr16~0                                           ; |midterm_sim|WideOr16~0                                           ; combout          ;
+; |midterm_sim|WideOr15~0                                           ; |midterm_sim|WideOr15~0                                           ; combout          ;
+; |midterm_sim|WideOr14~0                                           ; |midterm_sim|WideOr14~0                                           ; combout          ;
+; |midterm_sim|WideOr13~0                                           ; |midterm_sim|WideOr13~0                                           ; combout          ;
+; |midterm_sim|WideOr12~0                                           ; |midterm_sim|WideOr12~0                                           ; combout          ;
+; |midterm_sim|WideOr11~0                                           ; |midterm_sim|WideOr11~0                                           ; combout          ;
+; |midterm_sim|WideOr10~0                                           ; |midterm_sim|WideOr10~0                                           ; combout          ;
+; |midterm_sim|WideOr9~0                                            ; |midterm_sim|WideOr9~0                                            ; combout          ;
+; |midterm_sim|WideOr8~0                                            ; |midterm_sim|WideOr8~0                                            ; combout          ;
+; |midterm_sim|WideOr7~0                                            ; |midterm_sim|WideOr7~0                                            ; combout          ;
+; |midterm_sim|WideOr6~0                                            ; |midterm_sim|WideOr6~0                                            ; combout          ;
+; |midterm_sim|WideOr5~0                                            ; |midterm_sim|WideOr5~0                                            ; combout          ;
+; |midterm_sim|WideOr4~0                                            ; |midterm_sim|WideOr4~0                                            ; combout          ;
+; |midterm_sim|WideOr3~0                                            ; |midterm_sim|WideOr3~0                                            ; combout          ;
+; |midterm_sim|WideOr2~0                                            ; |midterm_sim|WideOr2~0                                            ; combout          ;
+; |midterm_sim|WideOr1~0                                            ; |midterm_sim|WideOr1~0                                            ; combout          ;
+; |midterm_sim|WideOr0~0                                            ; |midterm_sim|WideOr0~0                                            ; combout          ;
+; |midterm_sim|HEX0[6]                                              ; |midterm_sim|HEX0[6]                                              ; padio            ;
+; |midterm_sim|HEX0[5]                                              ; |midterm_sim|HEX0[5]                                              ; padio            ;
+; |midterm_sim|HEX0[4]                                              ; |midterm_sim|HEX0[4]                                              ; padio            ;
+; |midterm_sim|HEX0[3]                                              ; |midterm_sim|HEX0[3]                                              ; padio            ;
+; |midterm_sim|HEX0[2]                                              ; |midterm_sim|HEX0[2]                                              ; padio            ;
+; |midterm_sim|HEX0[1]                                              ; |midterm_sim|HEX0[1]                                              ; padio            ;
+; |midterm_sim|HEX0[0]                                              ; |midterm_sim|HEX0[0]                                              ; padio            ;
+; |midterm_sim|HEX1[6]                                              ; |midterm_sim|HEX1[6]                                              ; padio            ;
+; |midterm_sim|HEX1[5]                                              ; |midterm_sim|HEX1[5]                                              ; padio            ;
+; |midterm_sim|HEX1[4]                                              ; |midterm_sim|HEX1[4]                                              ; padio            ;
+; |midterm_sim|HEX1[3]                                              ; |midterm_sim|HEX1[3]                                              ; padio            ;
+; |midterm_sim|HEX1[2]                                              ; |midterm_sim|HEX1[2]                                              ; padio            ;
+; |midterm_sim|HEX1[1]                                              ; |midterm_sim|HEX1[1]                                              ; padio            ;
+; |midterm_sim|HEX1[0]                                              ; |midterm_sim|HEX1[0]                                              ; padio            ;
+; |midterm_sim|HEX4[6]                                              ; |midterm_sim|HEX4[6]                                              ; padio            ;
+; |midterm_sim|HEX4[5]                                              ; |midterm_sim|HEX4[5]                                              ; padio            ;
+; |midterm_sim|HEX4[4]                                              ; |midterm_sim|HEX4[4]                                              ; padio            ;
+; |midterm_sim|HEX4[3]                                              ; |midterm_sim|HEX4[3]                                              ; padio            ;
+; |midterm_sim|HEX4[2]                                              ; |midterm_sim|HEX4[2]                                              ; padio            ;
+; |midterm_sim|HEX4[1]                                              ; |midterm_sim|HEX4[1]                                              ; padio            ;
+; |midterm_sim|HEX4[0]                                              ; |midterm_sim|HEX4[0]                                              ; padio            ;
+; |midterm_sim|HEX5[6]                                              ; |midterm_sim|HEX5[6]                                              ; padio            ;
+; |midterm_sim|HEX5[5]                                              ; |midterm_sim|HEX5[5]                                              ; padio            ;
+; |midterm_sim|HEX5[4]                                              ; |midterm_sim|HEX5[4]                                              ; padio            ;
+; |midterm_sim|HEX5[3]                                              ; |midterm_sim|HEX5[3]                                              ; padio            ;
+; |midterm_sim|HEX5[2]                                              ; |midterm_sim|HEX5[2]                                              ; padio            ;
+; |midterm_sim|HEX5[1]                                              ; |midterm_sim|HEX5[1]                                              ; padio            ;
+; |midterm_sim|HEX5[0]                                              ; |midterm_sim|HEX5[0]                                              ; padio            ;
+; |midterm_sim|HEX6[6]                                              ; |midterm_sim|HEX6[6]                                              ; padio            ;
+; |midterm_sim|HEX6[5]                                              ; |midterm_sim|HEX6[5]                                              ; padio            ;
+; |midterm_sim|HEX6[4]                                              ; |midterm_sim|HEX6[4]                                              ; padio            ;
+; |midterm_sim|HEX6[3]                                              ; |midterm_sim|HEX6[3]                                              ; padio            ;
+; |midterm_sim|HEX6[2]                                              ; |midterm_sim|HEX6[2]                                              ; padio            ;
+; |midterm_sim|HEX6[1]                                              ; |midterm_sim|HEX6[1]                                              ; padio            ;
+; |midterm_sim|HEX6[0]                                              ; |midterm_sim|HEX6[0]                                              ; padio            ;
+; |midterm_sim|HEX7[6]                                              ; |midterm_sim|HEX7[6]                                              ; padio            ;
+; |midterm_sim|HEX7[5]                                              ; |midterm_sim|HEX7[5]                                              ; padio            ;
+; |midterm_sim|HEX7[4]                                              ; |midterm_sim|HEX7[4]                                              ; padio            ;
+; |midterm_sim|HEX7[3]                                              ; |midterm_sim|HEX7[3]                                              ; padio            ;
+; |midterm_sim|HEX7[2]                                              ; |midterm_sim|HEX7[2]                                              ; padio            ;
+; |midterm_sim|HEX7[1]                                              ; |midterm_sim|HEX7[1]                                              ; padio            ;
+; |midterm_sim|HEX7[0]                                              ; |midterm_sim|HEX7[0]                                              ; padio            ;
+; |midterm_sim|LEDG[0]                                              ; |midterm_sim|LEDG[0]                                              ; padio            ;
+; |midterm_sim|LEDG[1]                                              ; |midterm_sim|LEDG[1]                                              ; padio            ;
+; |midterm_sim|LEDG[2]                                              ; |midterm_sim|LEDG[2]                                              ; padio            ;
+; |midterm_sim|LEDG[3]                                              ; |midterm_sim|LEDG[3]                                              ; padio            ;
+; |midterm_sim|LEDG[4]                                              ; |midterm_sim|LEDG[4]                                              ; padio            ;
+; |midterm_sim|LEDG[5]                                              ; |midterm_sim|LEDG[5]                                              ; padio            ;
+; |midterm_sim|LEDG[6]                                              ; |midterm_sim|LEDG[6]                                              ; padio            ;
+; |midterm_sim|LEDG[7]                                              ; |midterm_sim|LEDG[7]                                              ; padio            ;
+; |midterm_sim|LEDG[8]                                              ; |midterm_sim|LEDG[8]                                              ; padio            ;
+; |midterm_sim|SW[16]                                               ; |midterm_sim|SW[16]~corein                                        ; combout          ;
+; |midterm_sim|SW[7]                                                ; |midterm_sim|SW[7]~corein                                         ; combout          ;
+; |midterm_sim|SW[5]                                                ; |midterm_sim|SW[5]~corein                                         ; combout          ;
+; |midterm_sim|SW[6]                                                ; |midterm_sim|SW[6]~corein                                         ; combout          ;
+; |midterm_sim|SW[13]                                               ; |midterm_sim|SW[13]~corein                                        ; combout          ;
+; |midterm_sim|SW[4]                                                ; |midterm_sim|SW[4]~corein                                         ; combout          ;
+; |midterm_sim|SW[3]                                                ; |midterm_sim|SW[3]~corein                                         ; combout          ;
+; |midterm_sim|SW[1]                                                ; |midterm_sim|SW[1]~corein                                         ; combout          ;
+; |midterm_sim|SW[2]                                                ; |midterm_sim|SW[2]~corein                                         ; combout          ;
+; |midterm_sim|SW[8]                                                ; |midterm_sim|SW[8]~corein                                         ; combout          ;
+; |midterm_sim|SW[0]                                                ; |midterm_sim|SW[0]~corein                                         ; combout          ;
+; |midterm_sim|SW[9]                                                ; |midterm_sim|SW[9]~corein                                         ; combout          ;
+; |midterm_sim|SW[10]                                               ; |midterm_sim|SW[10]~corein                                        ; combout          ;
+; |midterm_sim|SW[11]                                               ; |midterm_sim|SW[11]~corein                                        ; combout          ;
+; |midterm_sim|SW[12]                                               ; |midterm_sim|SW[12]~corein                                        ; combout          ;
+; |midterm_sim|SW[14]                                               ; |midterm_sim|SW[14]~corein                                        ; combout          ;
+; |midterm_sim|SW[15]                                               ; |midterm_sim|SW[15]~corein                                        ; combout          ;
++-------------------------------------------------------------------+-------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Tue Apr 09 19:09:20 2019
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off midterm_sim -c midterm_sim
+Info: Using vector source file "C:/altera/91sp2/midterm_sim/midterm_sim.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is       0.00 %
+Info: Number of transitions in simulation is 0
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 180 megabytes
+    Info: Processing ended: Tue Apr 09 19:09:20 2019
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+
