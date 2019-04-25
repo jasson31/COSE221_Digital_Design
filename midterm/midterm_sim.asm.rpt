@@ -1,5 +1,5 @@
 Assembler report for midterm_sim
-Thu Apr 11 15:57:22 2019
+Fri Apr 12 17:12:12 2019
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design_1st_term/midterm_sim.sof
-  6. Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design_1st_term/midterm_sim.pof
+  5. Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design/midterm/midterm_sim.sof
+  6. Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design/midterm/midterm_sim.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Apr 11 15:57:22 2019 ;
+; Assembler Status      ; Successful - Fri Apr 12 17:12:12 2019 ;
 ; Revision Name         ; midterm_sim                           ;
 ; Top-level Entity Name ; midterm_sim                           ;
 ; Family                ; Cyclone IV E                          ;
@@ -78,37 +78,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-----------------------------------------------------------------+
-; Assembler Generated Files                                       ;
-+-----------------------------------------------------------------+
-; File Name                                                       ;
-+-----------------------------------------------------------------+
-; C:/altera/91sp2/COSE221_Digital_Design_1st_term/midterm_sim.sof ;
-; C:/altera/91sp2/COSE221_Digital_Design_1st_term/midterm_sim.pof ;
-+-----------------------------------------------------------------+
++----------------------------------------------------------------+
+; Assembler Generated Files                                      ;
++----------------------------------------------------------------+
+; File Name                                                      ;
++----------------------------------------------------------------+
+; C:/altera/91sp2/COSE221_Digital_Design/midterm/midterm_sim.sof ;
+; C:/altera/91sp2/COSE221_Digital_Design/midterm/midterm_sim.pof ;
++----------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design_1st_term/midterm_sim.sof ;
-+----------------+--------------------------------------------------------------------------+
-; Option         ; Setting                                                                  ;
-+----------------+--------------------------------------------------------------------------+
-; Device         ; EP4CE115F29C7                                                            ;
-; JTAG usercode  ; 0xFFFFFFFF                                                               ;
-; Checksum       ; 0x005761A3                                                               ;
-+----------------+--------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design/midterm/midterm_sim.sof ;
++----------------+-------------------------------------------------------------------------+
+; Option         ; Setting                                                                 ;
++----------------+-------------------------------------------------------------------------+
+; Device         ; EP4CE115F29C7                                                           ;
+; JTAG usercode  ; 0xFFFFFFFF                                                              ;
+; Checksum       ; 0x00578D27                                                              ;
++----------------+-------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design_1st_term/midterm_sim.pof ;
-+--------------------+----------------------------------------------------------------------+
-; Option             ; Setting                                                              ;
-+--------------------+----------------------------------------------------------------------+
-; Device             ; EPCS64                                                               ;
-; JTAG usercode      ; 0x00000000                                                           ;
-; Checksum           ; 0x712C3EC0                                                           ;
-; Compression Ratio  ; 3                                                                    ;
-+--------------------+----------------------------------------------------------------------+
++------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/altera/91sp2/COSE221_Digital_Design/midterm/midterm_sim.pof ;
++--------------------+---------------------------------------------------------------------+
+; Option             ; Setting                                                             ;
++--------------------+---------------------------------------------------------------------+
+; Device             ; EPCS64                                                              ;
+; JTAG usercode      ; 0x00000000                                                          ;
+; Checksum           ; 0x712C6E06                                                          ;
+; Compression Ratio  ; 3                                                                   ;
++--------------------+---------------------------------------------------------------------+
 
 
 +--------------------+
@@ -117,14 +117,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Thu Apr 11 15:57:13 2019
+    Info: Processing started: Fri Apr 12 17:12:05 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off midterm_sim -c midterm_sim
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 471 megabytes
-    Info: Processing ended: Thu Apr 11 15:57:22 2019
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 472 megabytes
+    Info: Processing ended: Fri Apr 12 17:12:12 2019
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
 
 

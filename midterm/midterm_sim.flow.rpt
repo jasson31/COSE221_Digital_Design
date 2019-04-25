@@ -1,5 +1,5 @@
 Flow report for midterm_sim
-Thu Apr 11 15:57:22 2019
+Fri Apr 12 17:12:12 2019
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +------------------------------------+----------------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 11 15:57:22 2019        ;
+; Flow Status                        ; Successful - Fri Apr 12 17:12:12 2019        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; midterm_sim                                  ;
 ; Top-level Entity Name              ; midterm_sim                                  ;
@@ -63,26 +63,27 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/11/2019 15:56:45 ;
+; Start date & time ; 04/12/2019 17:11:46 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; midterm_sim         ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                ;
-+------------------------------------+---------------------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                                       ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+---------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 233499639365095.155496580411592             ; --            ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP             ; 85                                          ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP             ; 0                                           ; --            ; --          ; --             ;
-; MISC_FILE                          ; C:/altera/91sp2/midterm_sim/midterm_sim.dpf ; --            ; --          ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                        ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                                    ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                                      ; --            ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                         ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+---------------------------------------------+---------------+-------------+----------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                   ;
++------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                                          ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 233499639365095.155505670600924                                ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/altera/91sp2/midterm_sim/midterm_sim.dpf                    ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/altera/91sp2/COSE221_Digital_Design/midterm/midterm_sim.dpf ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                                           ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                                       ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                         ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                            ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -90,11 +91,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 246 MB              ; 00:00:03                           ;
-; Fitter                    ; 00:00:23     ; 1.0                     ; 434 MB              ; 00:00:25                           ;
-; Assembler                 ; 00:00:09     ; 1.0                     ; 471 MB              ; 00:00:08                           ;
-; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 336 MB              ; 00:00:04                           ;
-; Total                     ; 00:00:34     ; --                      ; --                  ; 00:00:36                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 248 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:16     ; 1.0                     ; 434 MB              ; 00:00:18                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 472 MB              ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 338 MB              ; 00:00:03                           ;
+; Total                     ; 00:00:25     ; --                      ; --                  ; 00:00:27                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
