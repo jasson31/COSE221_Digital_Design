@@ -48,14 +48,6 @@ HEX3[3] <= HEX3[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
 HEX3[2] <= HEX3[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
 HEX3[1] <= <GND>
 HEX3[0] <= HEX3[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
-LEDG[0] <= <GND>
-LEDG[1] <= <GND>
-LEDG[2] <= <GND>
-LEDG[3] <= <GND>
-LEDG[4] <= <GND>
-LEDG[5] <= <GND>
-LEDG[6] <= <GND>
-LEDG[7] <= <GND>
 
 
 |finalterm|clock:comb_3
@@ -84,6 +76,6 @@ clk => cnt[21].CLK
 clk => cnt[22].CLK
 clk => cnt[23].CLK
 clk => cnt[24].CLK
-newclk <= cnt[24].DB_MAX_OUTPUT_PORT_TYPE
+newclk <= cnt[22].DB_MAX_OUTPUT_PORT_TYPE
 
 

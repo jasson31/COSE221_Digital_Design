@@ -31,7 +31,7 @@ ON
 # case_sensitive
 # source_file
 finalterm.v
-cbc37f5823b8f1e756b24cb4f8a6
+b5cda3a59886ee2026b99370286381
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -72,26 +72,6 @@ PARAMETER_UNSIGNED_BIN
 DEF
 state_20
 101
-PARAMETER_UNSIGNED_BIN
-DEF
-input_4
-000
-PARAMETER_UNSIGNED_BIN
-DEF
-input_8
-001
-PARAMETER_UNSIGNED_BIN
-DEF
-input_12
-010
-PARAMETER_UNSIGNED_BIN
-DEF
-input_n8
-011
-PARAMETER_UNSIGNED_BIN
-DEF
-input_null
-100
 PARAMETER_UNSIGNED_BIN
 DEF
 Seg9
@@ -153,7 +133,7 @@ ON
 # case_sensitive
 # source_file
 finalterm.v
-cbc37f5823b8f1e756b24cb4f8a6
+b5cda3a59886ee2026b99370286381
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
